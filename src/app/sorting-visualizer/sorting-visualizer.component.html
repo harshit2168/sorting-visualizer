@@ -1,0 +1,6 @@
+<button (click)="resetArray()">Generate New Array</button>
+<button (click)="mergeSort()">Merge Sort</button>
+<div class="array-container">
+  <div *ngFor="let value of array; let idx = index" [id]="idx" class="array-bar" [style.backgroundColor]="PRIMARY_COLOR"
+    [style.height.px]="value"></div>
+</div>

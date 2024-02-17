@@ -1,0 +1,26 @@
+/* sorting-visualizer.component.css */
+/* div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    width: 20px;
+    margin: 0 2px;
+    background-color: #3498db;
+    display: inline-block;
+  }
+   */
+
+  .array-container {
+    position: absolute;
+    left: 100px;
+    /* top: 100px; */
+  }
+  
+  .array-bar {
+    width: 0.75em;
+    display: inline-block;
+    margin: 0 1px;
+  }
